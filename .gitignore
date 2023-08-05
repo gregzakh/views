@@ -1,0 +1,8 @@
+*
+!.gitignore
+!license
+!readme.txt
+!views.psd1
+!views.psm1
+!*.ps1
+!*/
