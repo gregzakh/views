@@ -47,6 +47,16 @@ function Invoke-ProxyReader {
         }
       }
     }
+
+    function script:Get-RawString([UInt32]$Offset, [Switch]$NoMove) {
+      end {
+        $cur = $fs.Position
+        $fs.Position = $Offset
+        while (($c = $br.ReadByte())) { $str += [Char]$c }
+        if ($NoMove) { $fs.Position = $cur }
+        $str
+      }
+    }
   }
   process {}
   end {
