@@ -68,7 +68,7 @@ function Get-PeExport {
         )) | Sort-Object Ordinal
         $zip.Dispose()
       }
-    } -Verbose:(!!$PSBoundParameters.Verbose)
+    } -Verbose:$(!!$PSBoundParameters.Verbose)
   }
 }
 
