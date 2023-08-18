@@ -8,17 +8,19 @@
   Description = 'Visual representation of...'
   PowerShellVersion = '7.3'
   FunctionsToExport = @(
+    'Get-PeBaseReloc'
     'Get-PeExport'
-    'Get-PeHeaders',
+    'Get-PeHeaders'
     'Get-PeResources'
   )
   FileList = @(
-    'lib\proxy.ps1',
-    'lib\vwpe.ps1',
-    'usr\Get-PeExport.ps1',
-    'usr\Get-PeHeaders.ps1',
-    'usr\Get-PeResources.ps1',
-    'views.psd1',
+    'lib\proxy.ps1'
+    'lib\vwpe.ps1'
+    'usr\Get-PeBaseReloc.ps1'
+    'usr\Get-PeExport.ps1'
+    'usr\Get-PeHeaders.ps1'
+    'usr\Get-PeResources.ps1'
+    'views.psd1'
     'views.psm1'
   )
 }
