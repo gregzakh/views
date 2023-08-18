@@ -13,7 +13,7 @@ function Get-PeBaseReloc {
         }
         $fs.Position += $on * 0x02
       }
-    } -Verbose:(!!$PSBoundParameters.Verbose)
+    } -Verbose:$(!!$PSBoundParameters.Verbose)
   }
 }
 
