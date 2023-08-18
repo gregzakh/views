@@ -36,7 +36,7 @@ function Get-PeResources {
         }
         $fs.Position = $cursor
       }
-    } -Verbose:(!!$PSBoundParameters.Verbose)
+    } -Verbose:$(!!$PSBoundParameters.Verbose)
   }
 }
 
