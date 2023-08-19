@@ -9,6 +9,7 @@
   PowerShellVersion = '7.3'
   FunctionsToExport = @(
     'Get-PeBaseReloc'
+    'Get-PeCert'
     'Get-PeDebug'
     'Get-PeDelayImport'
     'Get-PeException'
@@ -21,6 +22,7 @@
     'lib\proxy.ps1'
     'lib\vwpe.ps1'
     'usr\Get-PeBaseReloc.ps1'
+    'usr\Get-PeCert.ps1'
     'usr\Get-PeDebug.ps1'
     'usr\Get-PeDelayImport.ps1'
     'usr\Get-PeException.ps1'
