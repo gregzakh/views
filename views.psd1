@@ -10,6 +10,7 @@
   FunctionsToExport = @(
     'Get-PeBaseReloc'
     'Get-PeDebug'
+    'Get-PeDelayImport'
     'Get-PeException'
     'Get-PeExport'
     'Get-PeHeaders'
@@ -21,6 +22,7 @@
     'lib\vwpe.ps1'
     'usr\Get-PeBaseReloc.ps1'
     'usr\Get-PeDebug.ps1'
+    'usr\Get-PeDelayImport.ps1'
     'usr\Get-PeException.ps1'
     'usr\Get-PeExport.ps1'
     'usr\Get-PeHeaders.ps1'
