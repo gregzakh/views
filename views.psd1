@@ -13,6 +13,7 @@
     'Get-PeException'
     'Get-PeExport'
     'Get-PeHeaders'
+    'Get-PeImport'
     'Get-PeResources'
   )
   FileList = @(
@@ -23,6 +24,7 @@
     'usr\Get-PeException.ps1'
     'usr\Get-PeExport.ps1'
     'usr\Get-PeHeaders.ps1'
+    'usr\Get-PeImport.ps1'
     'usr\Get-PeResources.ps1'
     'views.psd1'
     'views.psm1'
