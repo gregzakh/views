@@ -1,3 +1,5 @@
+using namespace System.Linq
+
 function Get-PeDebug {
   [CmdletBinding()]param($Path)
 
@@ -41,7 +43,7 @@ function Get-PeDebug {
               $br.ReadUInt32()), /sdl=$($br.ReadUInt32()), guardN=$($br.ReadUInt32())"
             }
             13 { # IMAGE_DEBUG_TYPE_POGO
-              [String]::new([Linq.Enumerable]::Reverse($br.ReadChars(0x04)))
+              [String]::new([Enumerable]::Reverse($br.ReadChars(0x04)))
             }
             16 { # IMAGE_DEBUG_TYPE_REPRO
               $fs.Position += 0x04
