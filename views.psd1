@@ -17,6 +17,7 @@
     'Get-PeHeaders'
     'Get-PeImport'
     'Get-PeResources'
+    'Get-PeRich'
   )
   FileList = @(
     'lib\proxy.ps1'
@@ -31,6 +32,7 @@
     'usr\Get-PeHeaders.ps1'
     'usr\Get-PeImport.ps1'
     'usr\Get-PeResources.ps1'
+    'usr\Get-PeRich.ps1'
     'views.psd1'
     'views.psm1'
   )
