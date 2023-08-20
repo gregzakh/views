@@ -20,6 +20,7 @@
   )
   FileList = @(
     'lib\proxy.ps1'
+    'lib\utils.ps1'
     'lib\vwpe.ps1'
     'usr\Get-PeBaseReloc.ps1'
     'usr\Get-PeCert.ps1'
